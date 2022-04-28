@@ -1,4 +1,6 @@
-
+nav{
+    background-color: white;
+}
 img{
     width: 100%;
 }
@@ -22,7 +24,8 @@ img{
    background-position: left bottom;
 }
 .container{
-    margin-top: 100px;
+    margin-bottom: 100px;
+    
 }
 a{
     text-decoration: none;
@@ -38,10 +41,26 @@ a{
     margin-right: 100px;
     
 }
-.card img{
+.smartphone img{
     width: 70%;
     height: 70%;
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
 }
+.laptop img{
+    width: 70%;
+    height: 70%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card{
+    
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+
+
